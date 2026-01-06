@@ -14,15 +14,11 @@ SECRET_KEY = os.getenv("SECRET_KEY") or "wow so secret"
 DEBUG = (os.getenv("DEBUG") != "false")
 
 ALLOWED_HOSTS = [
+    "localhost",
     "0.0.0.0",
     "127.0.0.1",
-    "vas3k.blog",
-    "vas3k.ru",
-    "vas3k.com",
-    "vas3k.en",
-    "es.vas3k.blog",
-    "zh.vas3k.blog",
-    "hi.vas3k.blog",
+    "justbaha.dev",
+    "www.justbaha.dev",
 ]
 INTERNAL_IPS = ["127.0.0.1"]
 
