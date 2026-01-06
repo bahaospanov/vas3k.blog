@@ -1,4 +1,4 @@
-name: Deploy vas3k.blog
+name: Deploy zeit.blog
 
 on:
   push:
